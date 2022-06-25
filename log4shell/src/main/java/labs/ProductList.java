@@ -1,4 +1,4 @@
-package we45.training.labs;
+package labs;
 
 import java.io.*;  
 import java.sql.*;  
@@ -86,7 +86,7 @@ public class ProductList extends HttpServlet {
       
 				String name = request.getParameter("name"); 
 
-				Logger logger = LogManager.getLogger(we45.training.labs.log4j.class);
+				Logger logger = LogManager.getLogger(labs.log4j.class);
 		        logger.error(request.getParameter("name"));        
 
 

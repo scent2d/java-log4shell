@@ -3,7 +3,7 @@
     <display-name>Log4Shell</display-name>
     <servlet>
         <servlet-name>ProductList</servlet-name>
-        <servlet-class>we45.training.labs.ProductList</servlet-class>
+        <servlet-class>labs.ProductList</servlet-class>
         <init-param>
             <param-name>development</param-name>
             <param-value>false</param-value>
@@ -11,7 +11,7 @@
     </servlet>
     <servlet>
         <servlet-name>CreateProduct</servlet-name>
-        <servlet-class>we45.training.labs.CreateProduct</servlet-class>
+        <servlet-class>labs.CreateProduct</servlet-class>
         <init-param>
             <param-name>development</param-name>
             <param-value>false</param-value>
